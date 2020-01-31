@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="assembly.asm">
-      <Filter>Source Files</Filter>
-    </MASM>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="reading_parameters_from_x64.cpp">
+    <ClCompile Include="reading_parameters_cc_x64.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assembly.asm">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
