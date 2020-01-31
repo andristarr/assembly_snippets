@@ -15,7 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="reading_parameters_from_cdecl_x64.cpp">
+    <MASM Include="assembly.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="reading_parameters_from_x64.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
